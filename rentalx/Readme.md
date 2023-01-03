@@ -199,3 +199,18 @@
 
 * configurando email em produção
   > envio de emails utilizando o `AWS-SES`
+
+* Deploy utilizando `AWS-EC2` 
+  > CI/CD - Github Action
+  - nginx 
+  - Proxy Reverso
+  - PM2
+  - Babel
+  - CertBot -> certificado https
+  - SSL
+
+* Segurança
+  - redis - banco de dados de acessos, filas, jobs
+  - limitar o número de acessos por ip - node-rate-limiter-flexible
+
+  - Sentry - Captura de erros na aplicação
